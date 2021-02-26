@@ -8,26 +8,38 @@
 			font-family: courier;
 			width: 400px;
 		}
+		.textWide {
+			color: #9BB9C3;
+			font-family: courier;
+		}
 		hr {
 			color: #1A2C3D;
 			border-color: #1A2C3D
 		}
+		.wideHR {
+			position: absolute;
+			width: 98.5%
+		}
 		.imgContainer {
 			width: 400px;
 			height: 400px;
-			position: absolute; 
+			position: absolute;
+		}
+		img {
+			width: 400px;
+			height: 300px;
 		}
 	</style>
 </head>
 <body style="background-color: #315A66">
 	<div class="imgContainer" style="left: 25px">
-		<img src="downloads/nono.jfif" style="width: 400px; height: 300px">
+		<img src="downloads/nono.jfif">
 		<center>
 			<p class="text">Nonograms</p>
 		</center>
 	</div>
 	<div class="imgContainer" style="right: 25px">
-		<img src="downloads/hanj.png" style="width: 400px; height: 300px">
+		<img src="downloads/hanj.png">
 		<center>
 			<p class="text">Hanjie</p>
 		</center>
@@ -40,6 +52,43 @@
 		<br></br>
 		<p class="text">The numbers on the sides are used to create a picture- for example, if it says 13.1, there are thirteen colored squares, at least one space, and then one colored square in that row/column.</p>
 	</center>
-	<hr style="position: absolute; top: 375px; width: 98.5%;"></hr>
+	<!--Position is 98.5% because 100% adds a bottom scroll bar-->
+	<hr class="wideHR" style="top: 375px;"></hr>
+	<div style="position: absolute; top: 400px; width: 98.5%;">
+		<center>
+			<h2 class="textWide">Here are some websites that let you do these puzzles online:</h2>
+			<p class="text"><a class="text" href="https://webpbn.com/">Web PBN</a>, <a class="text" href="http://www.anypuzzle.com/Hanjie">Any Puzzle</a></p>
+		</center>
+	</div>
+	<hr class="wideHR" style="top: 500px;">
+	<div style="position: absolute; top: 525px; width: 98.5%;">
+		<div style="left: 0px; width: 49.25%; position: absolute">
+			<h3 class="text">Other names for visual sudoku:</h3>
+			<ul class="text">
+				<li>Griddlers
+				<li>Nonograms
+				<li>Picross
+				<li>Hanjie
+				<li>Paint by number
+				<li>O'Ekaki
+			</ul>
+		</div>
+		<div style="right: 0px; width: 49.25%; position: absolute">
+			<h3 class="text">How to do visual sudoku:</h3>
+			<ol class="text">
+				<li>Fill in any rows/columns whose numbers and number of spaces between add to the total length of the row/column.
+				<li>If that gives you any clues (for example, a row with only one filled in square now has the square), you can now act on those!
+				<li>Continue until all the squares are filled and you have a picture!
+			</ol>
+		</div>
+	</div>
+	<hr class="wideHR" style="top: 750px;"></hr>
+	<div style="position: absolute; width: 98.5%; top: 775px; height: 450px">
+		<center>
+			<h2 class="text">Here are a few pictures of finished puzzles!</h2>
+			<img src="pengins.png">
+			<img src="pander.jpg">
+		</center>
+	</div>
 </body>
 </html>
