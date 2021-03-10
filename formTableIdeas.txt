@@ -1,0 +1,5 @@
+I would like to make my webpage about Michigan.
+
+I think I will make a table with data on Michigan's national parks and what they are like. This would include images.
+
+I could write a form about which national park is the person's favorite, going off the table
