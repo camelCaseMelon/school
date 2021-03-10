@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Ice Cream Order</title>
+	<style>
+		form {
+			background-color: #f5e5c1;
+		}
+		body {
+			background-color: #422207;
+		}
+		h1 {
+			color: #f5e5c1;
+		}
+		label, p, h2 {
+			color: #9c277f;
+		}
+		hr {
+			border-color: #9c277f;
+			width: 95%;
+		}
+	</style>
+</head>
+<body>
+	<center>
+		<h1><u>Ice Cream Order Form</u></h1>
+		<form>
+			<br></br>
+			<label for="nameEntry" class="inForm">Name: </label>
+			<input type="textBox" name="nameEntry"></input>
+			<br></br>
+			<hr></hr>
+			<br></br>
+			<label for="scoopEntry" class="inForm"># of Scoops: </label>
+			<select name="scoopEntry">
+				<option>1
+				<option>2
+				<option>3
+			</select>
+			<br></br>
+			<br></br>
+			<input type="checkbox"><p>Vanilla</p></input>
+			<input type="checkbox"><p>Strawberry</p></input>
+			<input type="checkbox"><p>Chocolate</p></input>
+			<br></br>
+			<h2>Which scoop goes on top?</h2>
+			<input type="radio" name="top"><p>Vanilla</p></input>
+			<input type="radio" name="top"><p>Strawberry</p></input>
+			<input type="radio" name="top"><p>Chocolate</p></input>
+			<button>Submit</button>
+			<br></br>
+		</form>
+	</center>
+</body>
+</html>
