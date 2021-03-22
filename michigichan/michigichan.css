@@ -30,6 +30,9 @@ img {
   position: absolute;
   right: 0px;
   top: 0px;
-  border: 2px;
-  border-color: white;
+  border-left: solid 2px;
+  border-color: #f5ffef;
+}
+form {
+	
 }
