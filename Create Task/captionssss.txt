@@ -1,0 +1,27 @@
+1
+00:00:00,000 --> 00:00:01,240
+This is a game where you have to click the shapes in the correct order
+
+2
+00:00:01,240 --> 00:00:04,760
+Message appears if a number of shapes is not selected
+
+3
+00:00:04,760 --> 00:00:08,800
+Order to click shapes in is randomly determined
+
+4
+00:00:08,800 --> 00:00:10,760
+New Game button will reset everything
+
+5
+00:00:10,760 --> 00:00:22,520
+Playing with six shapes is much harder
+
+6
+00:00:22,520 --> 00:00:25,200
+Message still appears even if program is reset
+
+7
+00:00:25,200 --> 00:00:27,560
+Number of shapes can be easily changed from this screen
