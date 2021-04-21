@@ -5,3 +5,24 @@ body {
 p {
 	font-family: "Indie Flower";
 }
+hr {
+	color: #36454f;
+}
+a {
+	color: #36454f;
+	margin-left: 50px;
+	margin-right: 50px;
+}
+.navbar {
+	position: sticky;
+	top: 0;
+	background-color: #D0EAFF;
+}
+iframe {
+	width: 305px;
+	height: 410px;
+	border: solid #36454f 1px;
+}
+.links {
+	background-color: #D2FFD0;
+}
