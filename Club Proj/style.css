@@ -17,12 +17,43 @@ a {
 	position: sticky;
 	top: 0;
 	background-color: #D0EAFF;
+	z-index: 1;
 }
 iframe {
-	width: 305px;
+	width: 24%;
 	height: 410px;
 	border: solid #36454f 1px;
 }
 .links {
 	background-color: #D2FFD0;
+}
+/* Activity page */
+.activity {
+	position: relative;
+	height: 412px;
+}
+#one {
+	background-color: #D2FFD0;
+}
+#two {
+	background-color: #D0FFE6;
+}
+#three {
+	background-color: #D0EFF1;
+}
+.activityDesc {
+	position: absolute;
+	bottom: 50%;
+	width: 74%
+}
+.leftAlign {
+	left: 10px;
+}
+.rightAlign {
+	text-align: right;
+	right: 10px;
+}
+#frameTwo {
+	position: absolute;
+	right: 0px;
 }

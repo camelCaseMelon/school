@@ -5,7 +5,19 @@
 	<link rel="stylesheet" href="michigichan.css"></link>
 </head>
 <body>
-	<div id="nav">
+	<div class="sidebar-left">
+		<center>
+			<p class = "text sidebarText">M</p>
+			<p class = "text sidebarText">I</p>
+			<p class = "text sidebarText">C</p>
+			<p class = "text sidebarText">H</p>
+			<p class = "text sidebarText">I</p>
+			<p class = "text sidebarText">G</p>
+			<p class = "text sidebarText">A</p>
+			<p class = "text sidebarText">N</p>
+		</center>
+	</div>
+	<div class="sidebar-right">
 		<center>
 			<p class = "text">Navigation</p>
 			<br></br>
@@ -17,8 +29,20 @@
 	<center>
 		<h1 class = "text">Questionnaire</h1>
 		<form>
-			<label for="nameEntry" class="text">Name: </label>
+			<br></br>
+			<label for="nameEntry" class="formText">Name: </label>
 			<input type="textBox" name="nameEntry"></input>
+			<p class = "formText">Which national park was your favorite?</p>
+			<input type="radio" name="fav"><p class = "formText">Isle Royale</p></input>
+			<input type="radio" name="fav"><p class = "formText">Pictured Rocks</p></input>
+			<input type="radio" name="fav"><p class = "formText">Sleeping Bear Dunes</p></input>
+			<br></br>
+			<label for="why" class="formText">Why?</label>
+			<br></br>
+			<input type="textBox" name="why"></input>
+			<br></br>
+			<button>Submit</button>
+			<br></br>
 		</form>
 	</center>
 </body>

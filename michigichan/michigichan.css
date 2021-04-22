@@ -23,16 +23,34 @@ img {
   width: 250px;
   height: 150px;
 }
-#nav {
+.sidebar-left {
   background-color: #1c345c;
   height: 100%;
   width: 10%;
   position: absolute;
-  right: 0px;
   top: 0px;
-  border-left: solid 2px;
-  border-color: #f5ffef;
+  border-right: solid 2px #f5ffef;
+  left: 0px;
+}
+.sidebar-right {
+  background-color: #1c345c;
+  height: 100%;
+  width: 10%;
+  position: absolute;
+  top: 0px;
+  border-left: solid 2px #f5ffef;
+  right: 0px;
 }
 form {
-	
+	background-color: #1c345c;
+  width: 70%;
+  border: solid 2px #f5ffef;
+}
+.formText {
+  color: #f5ffef;
+}
+.sidebarText {
+  font-size: 52px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
