@@ -4,7 +4,7 @@ When the user inputs which amount of buttons they would like to play with by cli
 The name of the list being processed in these images is numList.
 numList stores numbers that represent the order in which the buttons must be clicked to win the game. Without it, the game could not be played.
 If numList had not existed, there would need to be individual variables for each value in the order. Half the time, two variables would not be used because the player would only be playing with four buttons, leaving the other two variables as extraneous code, while the list is much more flexible in length. Furthermore, where the order is easily determined in the current code by using a for loop to check against the prior values in the list, this process would be much more complex with individual variables, requiring multiple if statements for each number to be determined. Finally, the game would need to manually check the score and compare the clicked button with the required variable instead of the simple method in the program of checking numList[score] and seeing if it matches the button clicked.
-
+The function newGame() makes visible the buttons that are needed for the game and then determines a new order for the buttons to be clicked in order to win.
 
 My first call is newGame(4).
 My second call is newGame(6).
