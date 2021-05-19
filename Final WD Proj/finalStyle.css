@@ -1,4 +1,3 @@
-/* Get colors used on TP website - colors are placeholders */
 body {
 	margin: 0px;
 	background-color: lightSeaGreen;
@@ -9,13 +8,13 @@ body {
 	height: 100%;
 	width: 10%;
 	z-index: 1;
-	border-right: solid 10px orangeRed;
+	border-right: solid 10px rgb(217,62,23);
 	background-color: white;
 	margin: inherit;
 	left: 0px;
 }
 .navLink {
-	color: darkOrange;
+	color: rgb(228,100,24);
 	font-weight: bold;
 	font-size: 24px;
 	margin-top: 50px;
@@ -33,9 +32,13 @@ div {
 	color: white;
 }
 .content {
-	border: solid 10px orangeRed;
+	border: solid 10px rgb(217,62,23);
 	background-color: white;
 	/* These are weird because of the size of the borders/divs. Left needs to be 10px more than right for equal looking margins. */
 	margin-left: 35px;
 	margin-right: 25px;
+	color: rgb(228,100,24);
+}
+h1 {
+	color: white;
 }
