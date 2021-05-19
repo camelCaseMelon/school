@@ -14,10 +14,84 @@
 	</div>
 	<div class = "page">
 		<center>
-			<h1><u>The Trevor Project</u></h1>
-			<div class = "content">
-				<h2 
-			</div>
+			<h1><u>User Survey</u></h1>
+			<form class = "content">
+				<br></br>
+				<label for="nameEntry">Name: </label>
+				<input type="textBox" name="nameEntry"></input>
+				<br></br>
+				<label for="ageEntry">Age group:</label>
+				<select name="ageEntry">
+					<option>
+					<option>Under 18
+					<option>18-29
+					<option>30-45
+					<option>46-60
+					<option>61+
+				</select>
+				<br></br>
+				<label for="appEntry">How would you rate the website?</label>
+				<select name="appEntry">
+					<option>
+					<option>1 - Very Bad
+					<option>2 - Bad
+					<option>3 - No Opinion
+					<option>4 - Good
+					<option>5 - Very Good
+				</select>
+				<br></br>
+				<label for="feedback">Please leave feedback if you have any!</label>
+				<input type="textbox" name="feedback"></input>
+				<br></br>
+				<button>Submit</button>
+				<br></br>
+			</form>
+			<table border="1">
+				<colgroup>
+					<col>
+					<col>
+					<col>
+					<col>
+					<col>
+					<col>
+				</colgroup>
+				<tr>
+					<th colspan="6">Responses</th>
+				</tr>
+				<tr>
+					<th>Age Group</th>
+					<td>&lt;18</td>
+					<td>18-29</td>
+					<td>30-45</td>
+					<td>46-60</td>
+					<td>&gt;61</td>
+				<tr>
+				<tr>
+					<th></th>
+					<td>#</td>
+					<td>#</td>
+					<td>#</td>
+					<td>#</td>
+					<td>#</td>
+				</tr>
+				<tr>
+					<th>Opinions</th>
+					<td>Very Bad</td>
+					<td>Bad</td>
+					<td>N/A</td>
+					<td>Good</td>
+					<td>Very Good</td>
+				<tr>
+				<tr>
+					<th></th>
+					<td>#</td>
+					<td>#</td>
+					<td>#</td>
+					<td>#</td>
+					<td>#</td>
+				</tr>
+			</table>
+			<p>Note: This table would normally be filled with the number of responses in each category as a fun thing people could see. It would only be visible after the form is completed.</p>
 		</center>
 	</div>
 </body>

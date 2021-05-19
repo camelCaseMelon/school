@@ -37,8 +37,13 @@ div {
 	/* These are weird because of the size of the borders/divs. Left needs to be 10px more than right for equal looking margins. */
 	margin-left: 35px;
 	margin-right: 25px;
+	margin-top: 10px;
+	margin-bottom: 10px;
 	color: rgb(228,100,24);
 }
-h1 {
+input, select {
+	display: block;
+}
+h1, table, p {
 	color: white;
 }
