@@ -40,10 +40,31 @@ div {
 	margin-top: 10px;
 	margin-bottom: 10px;
 	color: rgb(228,100,24);
+	position: relative;
+}
+h2 {
+	width: 300px;
+	position: absolute;
+	right: 0px;
+	top: 0px;
 }
 input, select {
 	display: block;
 }
-h1, table, p {
+h1, table, p, .header {
 	color: white;
+}
+.contentImg {
+	width: 350px;
+	height: 200px;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+}
+img {
+	width: inherit;
+	height: inherit;
+}
+.conText {
+	
 }
